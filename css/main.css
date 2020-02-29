@@ -7,6 +7,7 @@ body {
 
 .hero-bg {
   background: #307D99 url('../images/bg.jpg');
+  background-position: 4% 60%;
   color: white;
   text-align: center;
   padding-bottom: 4em;
@@ -97,5 +98,9 @@ input[type=button] {
   border-radius: .5em;
   font-size: 1.3em;
   cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: rgb(216, 126, 1);
 }
 
