@@ -144,3 +144,7 @@ img {
 p {
   line-height: var(--leading);
 }
+
+@media (min-width: 730px) {
+  
+}
