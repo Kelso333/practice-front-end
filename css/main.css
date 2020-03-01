@@ -155,3 +155,19 @@ p {
     }
 
 }
+
+@media (min-width: 930px) {
+    .hero-bg {
+      text-align: left;
+    }    
+
+    .hero-bg p {
+      font-weight: bold;
+      margin: 0 0 3em;
+  }
+
+    .hero-bg section {
+      width: 65%;
+  }
+
+}
