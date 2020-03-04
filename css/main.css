@@ -231,3 +231,12 @@ p {
 
 /* animation for head-bg, top part of the site */
 
+.top {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from { 
+    
+  }
+}
