@@ -157,6 +157,13 @@ p {
   opacity: 0;
 }
 
+/* CUSTOM CLASSES */
+
+.animate-overlay {
+  animation: overlay 3s forwards;
+
+
+}
 
 /* MEDIA QUERIES */
 
@@ -256,4 +263,22 @@ p {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes overlay {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+  
+
 }
